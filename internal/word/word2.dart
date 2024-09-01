@@ -31,7 +31,7 @@ class WordFrequencyCounter {
     var sortedEntries = wordFrequency.entries.toList()
       ..sort((e1, e2) => e2.value.compareTo(e1.value));
 
-    // . 연산자는 cascade operator로, 객체에 여러 연산을 연달아 수행할 때 사용
+    // .. 연산자는 cascade operator로, 객체에 여러 연산을 연달아 수행할 때 사용
     // (e1, e2) => e2.value.compareTo(e1.value) : 비교 함수 ,   e2 - e1 을 계산하고, e2가 더 크면  양수, 같으면 0 , 작으면 음수 반환
 
     print('\n 단어 빈도 수 :');
