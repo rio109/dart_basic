@@ -1,6 +1,7 @@
 import '../internal/calculate/calculate.dart';
 import '../internal/calculate/calculate2.dart';
 import '../internal/household/household.dart';
+import '../internal/household/household2.dart';
 import '../internal/quiz/quiz.dart';
 import '../internal/quiz/quiz2.dart';
 import '../internal/word/word.dart';
@@ -15,5 +16,6 @@ void main() {
   // testQuiz();
 
   // testQuiz2();
-  testHouseHold();
+  // testHouseHold();
+  household2();
 }
